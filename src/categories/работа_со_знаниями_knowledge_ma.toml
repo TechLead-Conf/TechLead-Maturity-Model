@@ -1,7 +1,7 @@
 [display_name]
 ru = "Работа со знаниями (knowledge management)"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "docs_as_part_of_ci",
     "api_registry",
@@ -15,7 +15,7 @@ skills = [
     "docs_generated_by_tests",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "example_mapping",
     "decision_records",

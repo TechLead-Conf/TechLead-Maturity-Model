@@ -1,7 +1,7 @@
 [display_name]
 ru = "Инфраструктура"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "iac",
     "alerting",
@@ -10,7 +10,7 @@ skills = [
     "сloud_native_контейнеризация_ci",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "сети_tcpip",
     "inner_paas",
@@ -21,7 +21,7 @@ skills = [
     "penetration_testing",
 ]
 
-[levels.3_компания_несколько_средних_ко]
+[levels.3_several_companies]
 skills = [
     "sre",
 ]

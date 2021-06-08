@@ -1,7 +1,7 @@
 [display_name]
 ru = "Архитектура"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "enterprise_integration_patterns",
     "проектирование_систем",
@@ -16,7 +16,7 @@ skills = [
     "actor_model",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "event_storming",
     "soa",
@@ -25,7 +25,7 @@ skills = [
     "architectural_tests",
 ]
 
-[levels.3_компания_несколько_средних_ко]
+[levels.3_several_companies]
 skills = [
     "serverless_architecture",
     "reactive_programming",

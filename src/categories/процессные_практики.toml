@@ -1,7 +1,7 @@
 [display_name]
 ru = "Процессные практики"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "понимание_и_уверенное_использова",
     "scrum",
@@ -10,7 +10,7 @@ skills = [
     "team_kanban_practitioner",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "safe",
     "практики_взаимодействия_с_другим",
@@ -22,7 +22,7 @@ skills = [
     "disciplined_agile_delivery",
 ]
 
-[levels.3_компания_несколько_средних_ко]
+[levels.3_several_companies]
 skills = [
     "beyond_budgeting",
     "management_30",

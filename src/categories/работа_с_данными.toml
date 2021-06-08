@@ -1,7 +1,7 @@
 [display_name]
 ru = "Работа с данными"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "sqlnosql_знание_технолигии",
     "проектирование_бд",
@@ -11,7 +11,7 @@ skills = [
     "оптимизация_сервера_бд",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "выбор_субд",
     "политики_backups",
@@ -19,7 +19,7 @@ skills = [
     "realtime_systems",
 ]
 
-[levels.3_компания_несколько_средних_ко]
+[levels.3_several_companies]
 skills = [
     "dwh",
 ]

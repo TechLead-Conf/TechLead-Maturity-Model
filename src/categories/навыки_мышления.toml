@@ -1,17 +1,17 @@
 [display_name]
 ru = "Навыки мышления"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "критическое_мышление",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "системное_мышление",
 ]
 
-[levels.3_компания_несколько_средних_ко]
+[levels.3_several_companies]
 skills = [
     "триз",
     "дизайн_мышление",

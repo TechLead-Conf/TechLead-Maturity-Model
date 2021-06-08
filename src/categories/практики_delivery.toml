@@ -1,7 +1,7 @@
 [display_name]
 ru = "Практики delivery"
 
-[levels.1_команда]
+[levels.1_team]
 skills = [
     "continuous_integration",
     "branching_strategies",
@@ -10,7 +10,7 @@ skills = [
     "graceful_degradation",
 ]
 
-[levels.2_компания]
+[levels.2_company]
 skills = [
     "continuous_deployment",
     "feature_toggle",
