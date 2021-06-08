@@ -4,12 +4,13 @@
   "repository": "git@github.com:TechLead-Conf/TechLead-Maturity-Model.git",
   "license": "CC-BY-SA-4.0",
   "scripts": {
-    "start": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel serve ./src/index.pug",
+    "build": "parcel build ./src/index.pug"
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "2.0.0-beta.3.1",
-    "@parcel/transformer-webmanifest": "2.0.0-beta.3.1",
-    "parcel": "^2.0.0-beta.3.1"
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.3.1",
+    "pug": "^3.0.2",
+    "toml": "^3.0.0"
   }
 }
