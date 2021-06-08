@@ -1,0 +1,20 @@
+[display_name]
+ru = "Практики delivery"
+
+[levels.1_команда]
+skills = [
+    "continuous_integration",
+    "branching_strategies",
+    "healthcheck_readycheck",
+    "continuous_delivery",
+    "graceful_degradation",
+]
+
+[levels.2_компания]
+skills = [
+    "continuous_deployment",
+    "feature_toggle",
+    "canary_release",
+    "blue_green_deploy",
+    "cloud_providers",
+]

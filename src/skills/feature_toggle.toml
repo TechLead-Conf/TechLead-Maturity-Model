@@ -1,0 +1,4 @@
+link = "https://www.martinfowler.com/articles/feature-toggles.html"
+
+[display_name]
+ru = "Feature toggle"

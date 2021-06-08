@@ -1,0 +1,38 @@
+[display_name]
+ru = "Практики разработки"
+
+[levels.1_команда]
+skills = [
+    "refactoring",
+    "ооп",
+    "контрактное_программирование",
+    "unit_testing",
+    "code_review",
+    "open_source",
+    "refactoring_of_legacy_code",
+    "парное_программирование",
+    "функциональное_программирование",
+    "умение_писать_код_на_смежных_тех",
+]
+
+[levels.2_компания]
+skills = [
+    "atdd",
+    "tdd",
+    "bdd",
+    "обладает_достаточным_бекграундом",
+    "inner_source",
+    "no_code",
+]
+
+[levels.3_компания_несколько_средних_ко]
+skills = [
+    "mob_programming",
+    "performance_tuning_системы",
+    "railway_oriented_programming",
+]
+
+[levels.4_индустрия]
+skills = [
+    "code_retreats",
+]
