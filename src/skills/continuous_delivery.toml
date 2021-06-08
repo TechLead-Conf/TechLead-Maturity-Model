@@ -1,4 +1,5 @@
-link = "https://en.wikipedia.org/wiki/Continuous_delivery"
-
 [display_name]
 ru = "Continuous Delivery"
+
+[links]
+ru = "https://en.wikipedia.org/wiki/Continuous_delivery"

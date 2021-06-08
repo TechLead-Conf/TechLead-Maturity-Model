@@ -1,4 +1,5 @@
-link = "https://vc.ru/finance/48822-gayd-razobratsya-v-yunit-ekonomike-za-odin-den"
-
 [display_name]
 ru = "Юнит-экономика"
+
+[links]
+ru = "https://vc.ru/finance/48822-gayd-razobratsya-v-yunit-ekonomike-za-odin-den"

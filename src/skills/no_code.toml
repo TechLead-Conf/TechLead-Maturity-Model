@@ -1,4 +1,5 @@
-link = "https://www.nocode.tech/"
-
 [display_name]
 ru = "No-code"
+
+[links]
+ru = "https://www.nocode.tech/"

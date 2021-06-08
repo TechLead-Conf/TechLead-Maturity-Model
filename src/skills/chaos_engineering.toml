@@ -1,4 +1,5 @@
-link = "https://en.wikipedia.org/wiki/Chaos_engineering"
-
 [display_name]
 ru = "Chaos Engineering"
+
+[links]
+ru = "https://en.wikipedia.org/wiki/Chaos_engineering"

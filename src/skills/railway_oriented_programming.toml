@@ -1,4 +1,5 @@
-link = "https://fsharpforfunandprofit.com/posts/recipe-part2/"
-
 [display_name]
 ru = "Railway oriented programming"
+
+[links]
+ru = "https://fsharpforfunandprofit.com/posts/recipe-part2/"

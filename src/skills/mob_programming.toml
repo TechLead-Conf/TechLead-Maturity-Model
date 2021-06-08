@@ -1,4 +1,5 @@
-link = "https://www.agilealliance.org/glossary/mob-programming/"
-
 [display_name]
 ru = "Mob programming"
+
+[links]
+ru = "https://www.agilealliance.org/glossary/mob-programming/"

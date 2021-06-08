@@ -1,4 +1,5 @@
-link = "https://12factor.net/"
-
 [display_name]
 ru = "12 factor apps"
+
+[links]
+ru = "https://12factor.net/"

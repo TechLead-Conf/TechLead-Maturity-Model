@@ -1,4 +1,5 @@
-link = "https://adr.github.io/"
-
 [display_name]
 ru = "Decision Records"
+
+[links]
+ru = "https://adr.github.io/"

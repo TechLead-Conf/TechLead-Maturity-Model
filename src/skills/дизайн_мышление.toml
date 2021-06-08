@@ -1,4 +1,5 @@
-link = "https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular"
-
 [display_name]
 ru = "Дизайн-мышление"
+
+[links]
+ru = "https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular"

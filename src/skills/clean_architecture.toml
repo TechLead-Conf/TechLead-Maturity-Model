@@ -1,4 +1,5 @@
-link = "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164"
-
 [display_name]
 ru = "Clean architecture"
+
+[links]
+ru = "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164"

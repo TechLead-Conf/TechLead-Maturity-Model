@@ -1,4 +1,5 @@
-link = "https://evolutionaryarchitecture.com/"
-
 [display_name]
 ru = "Evolutionary architecture"
+
+[links]
+ru = "https://evolutionaryarchitecture.com/"

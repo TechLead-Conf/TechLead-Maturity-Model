@@ -1,4 +1,5 @@
-link = "https://en.wikipedia.org/wiki/Microservices"
-
 [display_name]
 ru = "Microservices"
+
+[links]
+ru = "https://en.wikipedia.org/wiki/Microservices"

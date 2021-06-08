@@ -1,4 +1,5 @@
-link = "https://www.openpolicyagent.org/docs/latest/philosophy/"
-
 [display_name]
 ru = "Governance as a code"
+
+[links]
+ru = "https://www.openpolicyagent.org/docs/latest/philosophy/"

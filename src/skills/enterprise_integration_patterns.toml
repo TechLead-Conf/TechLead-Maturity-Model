@@ -1,4 +1,5 @@
-link = "https://www.enterpriseintegrationpatterns.com/"
-
 [display_name]
 ru = "Enterprise Integration Patterns"
+
+[links]
+ru = "https://www.enterpriseintegrationpatterns.com/"

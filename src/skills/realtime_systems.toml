@@ -1,4 +1,5 @@
-link = "https://en.wikipedia.org/wiki/Real-time_computing"
-
 [display_name]
 ru = "Realtime systems"
+
+[links]
+ru = "https://en.wikipedia.org/wiki/Real-time_computing"

@@ -1,4 +1,5 @@
-link = "https://raml.org/"
-
 [display_name]
 ru = "API first development"
+
+[links]
+ru = "https://raml.org/"

@@ -38,11 +38,12 @@ def write_skill(skill, skills_dir):
         link = None
 
     with open(path.join(skills_dir, file_name), 'w') as f:
-        if link:
-            f.write(f'link = "{link}"\n\n')
-        
         f.write('[display_name]\n')
         f.write(f'ru = "{display_name}"\n')
+
+        if link:
+            f.write('\n[links]\n')
+            f.write(f'ru = "{link}"\n')
 
     return slug
 

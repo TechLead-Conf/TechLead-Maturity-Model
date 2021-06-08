@@ -1,4 +1,5 @@
-link = "https://medium.com/design-and-tech-co/modular-monoliths-a-gateway-to-microservices-946f2cbdf382"
-
 [display_name]
 ru = "Modular monolith"
+
+[links]
+ru = "https://medium.com/design-and-tech-co/modular-monoliths-a-gateway-to-microservices-946f2cbdf382"
