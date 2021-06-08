@@ -1,0 +1,15 @@
+{
+  "name": "techlead-maturity-model",
+  "version": "1.0.0",
+  "repository": "git@github.com:TechLead-Conf/TechLead-Maturity-Model.git",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "2.0.0-beta.3.1",
+    "@parcel/transformer-webmanifest": "2.0.0-beta.3.1",
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
