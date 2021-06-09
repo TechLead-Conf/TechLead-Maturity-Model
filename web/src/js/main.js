@@ -1,1 +1,2 @@
-console.log('test succeed');
+require("normalize.css");
+// require("bulma/css/bulma");

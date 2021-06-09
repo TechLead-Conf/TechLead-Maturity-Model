@@ -1,0 +1,40 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+.head {
+  margin: 32px;
+}
+
+.head h1 {
+  margin-bottom: 0;
+}
+
+.head p {
+  margin-top: 0;
+  font-size: small;
+  font-style: italic;
+}
+
+td p {
+  padding: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  min-width: 200px;
+}
+
+.skill {
+  background-color: #ffeeca;
+}
+
+td {
+  vertical-align: top;
+}
+
+th {
+  padding: 8px;
+}
+
+tr {
+  background-color: #b5aa99;
+}

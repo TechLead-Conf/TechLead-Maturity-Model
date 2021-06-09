@@ -1,6 +1,3 @@
-[display_name]
-ru = "Матрица зрелости"
-
 categories = [
     "навыки_мышления",
     "работа_с_данными",
@@ -16,3 +13,13 @@ categories = [
     "t_shape",
     "управление_технологической_страт",
 ]
+
+levels = [
+    '1_team',
+    '2_company',
+    '3_several_companies',
+    '4_industry',
+]
+
+[display_name]
+ru = "Модель зрелости техлида"

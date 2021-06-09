@@ -4,18 +4,24 @@ const toml = require("toml");
 
 const dataPath = path.join(__dirname, "..", "src");
 
-function readDir(dirPath) {
+function readTomlFile(filePath) {
+  const fileData = fs.readFileSync(filePath, {
+    encoding: "utf8",
+    flag: "r",
+  });
+  return toml.parse(fileData);
+}
+
+function readTomlDir(dirPath) {
   const data = {};
 
   const dir = fs.opendirSync(dirPath);
 
   let dirent;
   while ((dirent = dir.readSync()) !== null) {
-    const fileData = fs.readFileSync(path.join(dirPath, dirent.name), {
-      encoding: "utf8",
-      flag: "r",
-    });
-    data[dirent.name.replace(".toml", "")] = toml.parse(fileData);
+    data[dirent.name.replace(".toml", "")] = readTomlFile(
+      path.join(dirPath, dirent.name)
+    );
   }
 
   dir.closeSync();
@@ -24,9 +30,10 @@ function readDir(dirPath) {
 }
 
 const matrix_data = {
-  categories: readDir(path.join(dataPath, "categories")),
-  levels: readDir(path.join(dataPath, "levels")),
-  skills: readDir(path.join(dataPath, "skills")),
+  categories: readTomlDir(path.join(dataPath, "categories")),
+  levels: readTomlDir(path.join(dataPath, "levels")),
+  skills: readTomlDir(path.join(dataPath, "skills")),
+  matrix: readTomlFile(path.join(dataPath, "matrix.toml")),
 };
 
 module.exports = {
