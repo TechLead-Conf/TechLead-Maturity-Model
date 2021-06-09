@@ -17,5 +17,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
+      - run: npm install --global yarn
+      - run: yarn
+        working-directory: ./web
+      - run: yarn build
         working-directory: ./web
