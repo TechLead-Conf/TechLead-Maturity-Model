@@ -7,6 +7,7 @@ This repository contains the model source.
 You can see compiled model at [techlead-maturity-model.github.io](https://techlead-maturity-model.github.io).
 
 Pull requests are highly appreciated.
+Check our [wiki](https://github.com/TechLead-Conf/TechLead-Maturity-Model/wiki) for contribution ideas.
 
 ## Creation process
 
