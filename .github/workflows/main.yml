@@ -29,5 +29,6 @@ jobs:
           repo: techlead-maturity-model/techlead-maturity-model.github.io
           keep_history: true
           build_dir: ./web/dist
+          jekyll: false
         env:
           GH_PAT: ${{ secrets.GH_PAGES_DEPLOY_PAT }}
