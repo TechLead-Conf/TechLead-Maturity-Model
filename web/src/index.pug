@@ -18,14 +18,14 @@ html.no-js(lang='ru')
     div.head
       h1 #{matrix.display_name.ru}
       p 
-        a(href='https://github.com/TechLead-Conf/TechLead-Maturity-Model', target='_blank') sources
+        a(href='https://github.com/TechLead-Conf/TechLead-Maturity-Model' target='_blank') sources
 
     table 
       tr
         th Уровень
         each category in matrix.categories
           th #{categories[category].display_name.ru}
-      
+
       each level in matrix.levels 
         tr
           th
@@ -39,11 +39,12 @@ html.no-js(lang='ru')
               td
                 each skill_name in level_data.skills
                   - const skill = skills[skill_name]
+                  - const description = skill.descriptions == null ? null : skill.descriptions.ru
                   if skill.links
                     p.skill
-                      a(href=skill.links.ru, target='_blank') #{skill.display_name.ru}
+                      a(href=skill.links.ru, target='_blank', data-tippy-content=description) #{skill.display_name.ru}
                   else
-                    p.skill #{skill.display_name.ru}
- 
+                    p.skill(data-tippy-content=description) #{skill.display_name.ru}
+
 
     script(src='js/main.js')

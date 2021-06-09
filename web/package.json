@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "tippy.js": "^6.3.1"
   }
 }
