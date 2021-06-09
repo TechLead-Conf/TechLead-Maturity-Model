@@ -1,10 +1,12 @@
-# :mountain_cableway: TechLead maturiry model
+# :mountain_cableway: TechLead maturity model
 
 [![Deploy to GitHub pages](https://github.com/TechLead-Conf/TechLead-Maturity-Model/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/TechLead-Conf/TechLead-Maturity-Model/actions/workflows/main.yml)
 
 Progression model created by the community at [TechLead Conf conference](https://techleadconf.ru/2020/meetups#3011863).
 This repository contains the model source.
 You can see compiled model at [techlead-maturity-model.github.io](https://techlead-maturity-model.github.io).
+
+Pull requests are highly appreciated.
 
 ## Creation process
 
