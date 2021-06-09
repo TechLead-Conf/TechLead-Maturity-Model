@@ -22,3 +22,11 @@ jobs:
         working-directory: ./web
       - run: yarn build
         working-directory: ./web
+      - uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: main
+          repo: techlead-maturity-model/techlead-maturity-model.github.io
+          keep_history: true
+          build_dir: ./web/dist
+        env:
+          GH_PAT: ${{ secrets.GH_PAGES_DEPLOY_PAT }}
