@@ -1,0 +1,27 @@
+[display_name]
+ru = "Инфраструктура"
+
+[levels.1_team]
+skills = [
+    "iac",
+    "alerting",
+    "логирование_1_запись_в_файлко",
+    "мониторинг",
+    "сloud_native_контейнеризация_ci",
+]
+
+[levels.2_company]
+skills = [
+    "сети_tcpip",
+    "inner_paas",
+    "event_sourcing",
+    "security",
+    "hardware",
+    "governance_as_a_code",
+    "penetration_testing",
+]
+
+[levels.3_several_companies]
+skills = [
+    "sre",
+]

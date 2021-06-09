@@ -1,0 +1,34 @@
+[display_name]
+ru = "Архитектура"
+
+[levels.1_team]
+skills = [
+    "enterprise_integration_patterns",
+    "проектирование_систем",
+    "clean_architecture",
+    "modular_monolith",
+    "solid",
+    "microservices",
+    "cqrs",
+    "domain_driven_design",
+    "12_factor_apps",
+    "volatility_based_decomposition",
+    "actor_model",
+]
+
+[levels.2_company]
+skills = [
+    "event_storming",
+    "soa",
+    "evolutionary_architecture",
+    "serverless_architecture",
+    "architectural_tests",
+]
+
+[levels.3_several_companies]
+skills = [
+    "serverless_architecture",
+    "reactive_programming",
+    "literate_programming",
+    "machine_learning",
+]

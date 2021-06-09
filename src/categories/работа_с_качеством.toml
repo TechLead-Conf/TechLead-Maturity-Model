@@ -1,0 +1,21 @@
+[display_name]
+ru = "Работа с качеством"
+
+[levels.1_team]
+skills = [
+    "code_review",
+    "perfomance_testing_load_testing",
+    "выстраивать_пирамиду_тестировани",
+    "e2e_testing",
+    "integration_testing",
+    "unit_testing",
+]
+
+[levels.2_company]
+skills = [
+    "тестирование_безопасности",
+    "network_segmentation",
+    "consumer_driven_contracts",
+    "инфраструктурное_тестирование",
+    "chaos_engineering",
+]

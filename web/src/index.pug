@@ -1,0 +1,49 @@
+doctype html
+html.no-js(lang='ru')
+  head
+    meta(charset='utf-8')
+    title TechLead Maturity Model
+    meta(name='description' content='Модель зрелости техлида')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(property='og:title' content='TechLead Maturity Model')
+    meta(property='og:type' content='website')
+    meta(property='og:url' content='https://techlead-maturity-model.github.io')
+    meta(property='og:image' content='https://avatars.githubusercontent.com/u/66485474?s=400&u=dd914b7ccfa3827110bcba728ea2d2c94466c3c4&v=4')
+    link(rel='manifest' href='site.webmanifest')
+    link(rel='apple-touch-icon' href='icon.png')
+    // Place favicon.ico in the root directory
+    link(rel='stylesheet' href='css/main.css')
+    meta(name='theme-color' content='#fafafa')
+  body
+    div.head
+      h1 #{matrix.display_name.ru}
+      p 
+        a(href='https://github.com/TechLead-Conf/TechLead-Maturity-Model', target='_blank') sources
+
+    table 
+      tr
+        th Уровень
+        each category in matrix.categories
+          th #{categories[category].display_name.ru}
+      
+      each level in matrix.levels 
+        tr
+          th
+            p.level #{levels[level].display_name.ru}
+
+          each category in matrix.categories
+            - const level_data = categories[category].levels[level]
+            if level_data == null
+              td
+            else 
+              td
+                each skill_name in level_data.skills
+                  - const skill = skills[skill_name]
+                  if skill.links
+                    p.skill
+                      a(href=skill.links.ru, target='_blank') #{skill.display_name.ru}
+                  else
+                    p.skill #{skill.display_name.ru}
+ 
+
+    script(src='js/main.js')

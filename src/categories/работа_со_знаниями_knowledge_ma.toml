@@ -1,0 +1,23 @@
+[display_name]
+ru = "Работа со знаниями (knowledge management)"
+
+[levels.1_team]
+skills = [
+    "docs_as_part_of_ci",
+    "api_registry",
+    "структурирование_документациипе",
+    "docs_review",
+    "user_story_mapping",
+    "docs_as_a_code",
+    "user_story",
+    "api_first_development",
+    "декомпозиция",
+    "docs_generated_by_tests",
+]
+
+[levels.2_company]
+skills = [
+    "example_mapping",
+    "decision_records",
+    "системный_анализ",
+]

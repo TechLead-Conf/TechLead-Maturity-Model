@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: prod
 
     steps:
       - uses: actions/checkout@v2
@@ -17,5 +18,17 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
+      - run: npm install --global yarn
+      - run: yarn
         working-directory: ./web
+      - run: yarn build
+        working-directory: ./web
+      - uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: main
+          repo: techlead-maturity-model/techlead-maturity-model.github.io
+          keep_history: true
+          build_dir: ./web/dist
+          jekyll: false
+        env:
+          GH_PAT: ${{ secrets.GH_PAGES_DEPLOY_PAT }}
