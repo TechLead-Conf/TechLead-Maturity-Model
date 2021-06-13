@@ -1,5 +1,6 @@
 html {
   font-family: Helvetica, sans-serif;
+  color: #222;
 }
 
 .head {
@@ -24,7 +25,8 @@ td p {
 }
 
 .skill {
-  background-color: #ffeeca;
+  background-color: #CBBAED;
+  border-radius: 4px;
 }
 
 td {
@@ -36,5 +38,5 @@ th {
 }
 
 tr {
-  background-color: #b5aa99;
+  background-color: #FFF2DB;
 }
